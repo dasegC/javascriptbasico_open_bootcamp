@@ -1,0 +1,1 @@
+const edadUsuario = prompt('Ingrese su edad: ');
