@@ -1,0 +1,13 @@
+{
+  "name": "practica_modulo02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "funciones": "node ./modulo/funciones.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
