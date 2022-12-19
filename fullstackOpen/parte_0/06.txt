@@ -1,0 +1,6 @@
+title nueva_nota
+
+browser->server: HTTP POST - crea una nueva nota
+server->browser: HTTP POST - Responde con código 201 de creacion de la nota
+browser->server: Indica que los datos son representados en JSON
+server->browser:Envía datos como JSON-string

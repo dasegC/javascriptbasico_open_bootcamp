@@ -1,0 +1,6 @@
+title nueva_nota
+
+browser->server: HTTP POST - https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server->browser: HTTP POST - Responde con código 201
+browser->server: content-type: application/json; charset=utf-8 
+server->browser: /exampleapp/new_note_spa: [{"content": "ejercicio", "date": "2022-12-19T14:25:32.606Z"}]
